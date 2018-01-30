@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shubham.asuspc.relativelayout.MainActivity">
+
+    <RelativeLayout
+        android:background="@drawable/prev3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+
+        <EditText
+            android:drawableStart="@drawable/ic_face"
+            android:backgroundTint="#ffffff"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="65dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/E_mail"
+            android:textColorHint="#ffffff"
+            tools:ignore="UnusedAttribute" />
+
+        <EditText
+            android:drawableStart="@drawable/ic_action_name"
+            android:textColorHint="#ffffff"
+            android:backgroundTint="#ffffff"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="@string/Pass"
+            android:allowUndo="true"
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:inputType="textPassword"
+            tools:ignore="UnusedAttribute" />
+
+        <Button
+            android:onClick="Click"
+            android:padding="10dp"
+            android:background="#ccccff"
+             android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/Button_login"
+            android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            android:layout_below="@id/editText"
+            android:text="@string/Button_1"
+            tools:ignore="OnClick" />
+
+        <TextView
+
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Button_login"
+            android:text="@string/Member_log"
+            android:layout_centerHorizontal="true"
+            />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

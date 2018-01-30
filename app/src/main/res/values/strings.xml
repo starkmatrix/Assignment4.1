@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoginScreen</string>
+    <string name="E_mail">E-Mail</string>
+    <string name="Pass">Password</string>
+    <string name="Button_1">LOGIN</string>
+    <string name="Member_log">Not a member?Sign-Up now</string>
+</resources>
+
